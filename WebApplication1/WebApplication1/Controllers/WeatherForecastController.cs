@@ -18,6 +18,10 @@ namespace WebApplication1.Controllers
             _logger = logger;
         }
 
+        /// <summary>
+        /// Added comments fo testing
+        /// </summary>
+        /// <returns></returns>
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
